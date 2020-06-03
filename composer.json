@@ -1,0 +1,21 @@
+{
+    "name": "couriersdk/couriersdk",
+    "description": "courier sdk",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leejing",
+            "email": "850237064@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Courier\\Couriersdk\\": "src/courierSdk"
+        }
+    }
+}
